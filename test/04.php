@@ -2,8 +2,11 @@
     <head>
             <title> What I doing</title>
     </head>
+    <div align="center">
+  <img src="../images/Desert.jpg" width="850"   height="360" >
+    </div>
     <style>
-        body { background : #CC9933 ; margin : 0px;  }
+        body { background : #FF7F50 ; margin : 0px;}
     </style>
 
     <body>

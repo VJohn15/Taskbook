@@ -16,4 +16,4 @@ for ($x = 2 ; $x < n ; $x+=2){
     }
     $sum = n + $a * pow( n , $y) / $z ;
 }
-var_dump( $sum )
+var_dump( $sum );

@@ -23,4 +23,4 @@ for ( $x = 3; $x <= n ; $x+= 2){
     }
     $a += n + pow( n,$x ) / ( $a + $sum);
 }
-var_dump ($a )
+var_dump ($a );
