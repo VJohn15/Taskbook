@@ -4,7 +4,7 @@
 −1,    if X < 0;        0,    if X = 0;        1,    if X > 0
 (X is a real-valued parameter). Using this function, evaluate an expression Sign(A) + Sign(B) for given real numbers A and B.
  */
-function  Sign(&$a, $x)
+function  Sign($a, $x)
 {
     $result = 0 ;
  if ($x < 0){

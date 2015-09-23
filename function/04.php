@@ -5,17 +5,24 @@
  * Note that the area of a circle of radius R can be found by formula S = π·R2. Use 3.14 for a value of π.
  */
 const pi = 3.14;
-function CircleS($R1, $R2, $R3, $test = false)
+function CircleS($R)
 {
-    $s1 = pi * pow($R1, 2);
-    $s2 = pi * pow($R2, 2);
-    $s3 = pi * pow($R3, 2);
+    $s = pi * pow($R, 2);
 
-    return $s1 & $s2 & $s3;
+
+    return $s;
 
 }
-$R1 = 5;
-$R2 = 15;
-$R3 = 10;
-$result = CircleS($R1, $R2, $R3, 5);
+$R = 5;
+$result = CircleS($R);
+echo 'The areas of three circles ', $result ;
+echo'<br/>';
+
+$R = 7;
+$result = CircleS($R);
+echo 'The areas of three circles ', $result;
+echo'<br/>';
+
+$R = 10;
+$result = CircleS($R);
 echo 'The areas of three circles ', $result;
