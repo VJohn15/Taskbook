@@ -14,7 +14,8 @@
             <li>About</li>
             <li>Album</li>
             <li>Another Link</li>
-            <li><a href="http://google.com">Google</a></li>
+            <li><a href="http://google.com"><marquee direction="right" style="background : #32ff19">Google</marquee></a></li>
+            <marquee >Flori   <img src="../images/Chrysanthemum.jpg" width="400" height="300" border="1" </marquee>
         </ul>
     </header>
 </body>
